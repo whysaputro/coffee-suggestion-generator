@@ -12,3 +12,7 @@ const sentences = [
     "As bitter as coffee, it will be even bitter if you are not there by my side.",
     "Coffee teaches us that life is not always sweet, but also bitter."
 ];
+
+const randomNum = num => {
+    return Math.floor(Math.random() * num);
+}
